@@ -53,9 +53,10 @@ This project addresses these challenges by combining:
 ---
 
 ##  System Architecture
-<img width="1913" height="1009" alt="Screenshot 2025-12-24 190808" src="https://github.com/user-attachments/assets/5ea26b13-0439-469d-b337-4a7b9bf743e6" />
+<img width="1864" height="792" alt="Screenshot 2025-12-24 190808" src="https://github.com/user-attachments/assets/09396efa-9de9-4791-a500-47eca3a540c0" />
 
-<img width="1875" height="1016" alt="Screenshot 2025-12-24 190820" src="https://github.com/user-attachments/assets/6f7385a9-3c58-4af9-80ed-345d0595b245" />
+
+<img width="627" height="839" alt="Screenshot 2025-12-24 190820" src="https://github.com/user-attachments/assets/ef5d2581-521a-4f0b-bae7-12b25a4f76a6" />
 
 
 > These diagrams illustrate:
