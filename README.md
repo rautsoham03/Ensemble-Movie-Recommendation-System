@@ -88,8 +88,7 @@ https://grouplens.org/datasets/movielens/100k/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/<your-username>/Ensemble-Movie-Recommendation-System.git
-cd Ensemble-Movie-Recommendation-System
+git clone https://github.com/rautsoham03/Hybrid-Deep-Learning-Based-Personalized-Recommendation-System
 
 ### 2. Install Dependencies
 pip install -r requirements.txt
