@@ -53,10 +53,10 @@ This project addresses these challenges by combining:
 ---
 
 ##  System Architecture
-<img width="1864" height="792" alt="Screenshot 2025-12-24 190808" src="https://github.com/user-attachments/assets/09396efa-9de9-4791-a500-47eca3a540c0" />
+<img width="1200" height="300" alt="Screenshot 2025-12-24 190808" src="https://github.com/user-attachments/assets/09396efa-9de9-4791-a500-47eca3a540c0" />
 
 
-<img width="627" height="839" alt="Screenshot 2025-12-24 190820" src="https://github.com/user-attachments/assets/ef5d2581-521a-4f0b-bae7-12b25a4f76a6" />
+<img width="327" height="539" alt="Screenshot 2025-12-24 190820" src="https://github.com/user-attachments/assets/ef5d2581-521a-4f0b-bae7-12b25a4f76a6" />
 
 
 > These diagrams illustrate:
@@ -67,5 +67,54 @@ This project addresses these challenges by combining:
 
 ---
 
+---
 
+## 📊 Dataset
+
+This project uses the **MovieLens 100K** dataset.
+
+Included files:
+- `movielens100k.csv` – cleaned dataset
+- `train_data.csv` – training split
+- `test_data.csv` – testing split
+
+Original dataset source:
+https://grouplens.org/datasets/movielens/100k/
+
+---
+
+
+### How to Run the Project
+
+### 1. Clone the Repository
+
+git clone https://github.com/<your-username>/Ensemble-Movie-Recommendation-System.git
+cd Ensemble-Movie-Recommendation-System
+
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Data Preprocessing
+python src/data_processing/movielens100k.py
+
+### 4. Train Individual Models
+python src/models/cf_model_fixed.py
+python src/models/content_based_filtering.py
+python src/models/hypertuned_models.py
+python src/models/fix_ncf_predictions.py
+python src/models/rnn_sequential.py
+
+### 5. Ensemble Prediction
+
+The ensemble combines outputs from all base models using
+Linear Regression stacking to generate final predicted ratings
+and Top-N movie recommendations. 
+
+📈 Evaluation Metrics
+
+RMSE
+MAE
+Precision
+Recall
+F1-Score
 
